@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+node_modules/
+dist/
+# Synthetic data is generated on first backend start (scheduler/generate_data.py)
+scheduler/csvs/

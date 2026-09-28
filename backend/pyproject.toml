@@ -1,0 +1,12 @@
+[project]
+name = "fastapi-backend"
+version = "0.1.0"
+description = "FastAPI backend for the Work Order Scheduler"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.111.0",
+    "uvicorn[standard]>=0.29.0",
+    "pandas>=2.0.0",
+    "numpy>=1.26.0",
+    "tqdm>=4.66.0",
+]
